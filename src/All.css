@@ -1,0 +1,59 @@
+.hh{
+    background-color: green;
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    height:100px;
+}
+.hd{
+    margin-top:-35px;
+    font-size: 15px;
+    color:yellow;
+}
+.ht{
+    margin-top:-35px;
+    color: yellow;
+    margin-left:42%;
+}
+.hc{
+    color:yellow;
+    margin-left: 90%;
+    margin-top: -40px;
+}
+.b1{
+    color:darkorange;
+}
+.m1{
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+}
+.m2{
+    width: 100%;
+    height:700px;
+}
+.o1{
+    color: rgb(0, 128, 0);
+    font-weight: bold;
+}
+.fo{
+    height: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+    background-color: green;
+}
+.f1{
+    color:yellow;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -160px;
+}
+.f2{
+    text-align: center;
+    color: yellow;
+    margin-top: -35px;
+}
