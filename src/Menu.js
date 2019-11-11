@@ -5,9 +5,17 @@ import './All.css'
     render() {
         return (
             <div>
-                <p className="m1">MENU CARD</p>
-                <img src={process.env.PUBLIC_URL + "/card.jpg"}alt="mypic"className="m2"/>
-                <img src={process.env.PUBLIC_URL + "/menu1.jpg"}alt="mypic"className="m2"/>
+                
+            <div className="outer">
+                
+                <div className="slider">
+                <img src={process.env.PUBLIC_URL + "/menu1.jpg"}alt="mypic"/>
+                <img src={process.env.PUBLIC_URL + "/menu2.png"}alt="mypic"/>
+                <img src={process.env.PUBLIC_URL + "/menu3.jpg"}alt="mypic"/>
+                <img src={process.env.PUBLIC_URL + "/r1.jpg"}alt="mypic"/>
+                 </div>
+                 
+                </div>
              </div>
         )
     }

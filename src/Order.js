@@ -31,6 +31,26 @@ import './All.css';
           console.log('you are click on delete button')
          this.clear();
          }  
+
+         update=()=>
+         {  var cn = this.refs.cn.value;
+            var mo = this.refs.mo.value;
+            var it1 = this.refs.it1.value;
+            var it2 = this.refs.it2.value;
+            var ad = this.refs.ad.value;
+           
+              console.log(cn,mo,it1,it2,ad)
+               fetch("http://localhost:3010/update?cn="+cn+"&mo="+mo+"&it1="+it1+"&it2="+it2+"&ad="+ad)
+                     .then(res => res.json())
+                     .then(out=>console.log(out))
+                     .catch((error)=>{
+                                   console.log(error);
+                      }) 
+                    console.log('you have clicked on update');
+           this.clear();
+        }
+
+
 clear=()=>{
     this.refs.cn.value = "";
     this.refs.mo.value = "";
@@ -43,7 +63,7 @@ clear=()=>{
         return (
             <div>
                 <h1 className="o1">FOR ORDER</h1>
-                <p><input type="text"placeholder="CUSTOMER NAME"className="form-control"
+                <p><input type="text"placeholder="CUSTOMER NAME"className="form-control" 
                 ref="cn"/> </p>
 
                 <p><input type="text"placeholder="MOBILE"className="form-control"
@@ -60,8 +80,12 @@ clear=()=>{
 
                 <p><input type="button"value="ORDER NOW"className="btn btn-success"
                 onClick={this.submit}/>
+
                 <input type="button"value="DELETE"className="btn btn-danger"
-                onClick={this.delete}/> </p>
+                onClick={this.delete}/> 
+
+                <input type="button"value="UPDATE"className="btn btn-primary"
+                onClick={this.update}/> </p>
 
                 </div>
         )

@@ -12,14 +12,62 @@
     color:yellow;
 }
 .ht{
-    margin-top:-35px;
+    margin-top:-30px;
     color: yellow;
     margin-left:42%;
 }
 .hc{
     color:yellow;
-    margin-left: 90%;
-    margin-top: -40px;
+    float: right;
+    margin-top: -50px;
+}
+.hi{
+    position: absolute;
+    width: 50%;
+    margin-left: 350px;
+}
+.li{
+    position: relative;
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-right: 450px;
+    float:right;
+
+}
+.li1{
+    position: relative;
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-right: 350px;
+    float:right;
+
+}
+.li2{
+    position: relative;
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-right: 250px;
+    float:right;
+
+}
+.li3{
+    position: relative;
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-right: 150px;
+    float:right;
+
+}
+.link{
+    color: yellow;
 }
 .b1{
     color:darkorange;
@@ -29,9 +77,52 @@
     font-weight: bold;
     color: green;
 }
+.outer{
+    width:100%;
+    overflow: hidden;
+}
+.slider{
+    text-align: center;
+    position: relative;
+    width: 3200px;
+    float: left;
+    animation: rishabh 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rishabh{
+   
+    0%
+    {
+    left:0px;
+    }
+    25%
+    {
+        left:0px;
+    }
+    33.33%
+    {
+        left:-800px;
+    }
+    58.33%
+    {
+        left:-800px;
+    }
+    66.66%
+    {
+        left:-1600px;
+    }
+    91.66%
+    {
+        left:-1600px;
+    }
+    100%
+    {
+        left:0px;
+    }
+}
 .m2{
     width: 100%;
-    height:700px;
 }
 .o1{
     color: rgb(0, 128, 0);

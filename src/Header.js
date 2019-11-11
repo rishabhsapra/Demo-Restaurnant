@@ -8,8 +8,7 @@ import './All.css'
                 <h1 className="hh">The Hunger Point</h1>
                 <p className="hd">free homedelivery upto 3km</p>
                 <p className="ht">eat healthy live healthy</p>
-                <p className="hc">Ph.9971300305</p>
-                <p></p>
+                <p className="hc">9971300305</p>
             </div>
         )
     }
